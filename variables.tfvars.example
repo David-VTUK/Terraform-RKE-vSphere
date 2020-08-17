@@ -1,0 +1,10 @@
+rancher2_api_url    = "https://rancher.myorg.com"
+rancher2_access_key = "token"
+rancher2_secret_key = "secret"
+rancher2_insecure   = false
+
+node_template       = "vSphere-Template"
+cluster_name        = "tf"
+cluster_description = "Created by tf"
+hostname_prefix     = "tf-"
+nodepool_quantity   = 3
